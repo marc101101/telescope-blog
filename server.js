@@ -6,3 +6,4 @@ ghost({
 }).then(function (ghostServer) {
   ghostServer.start();
 });
+
