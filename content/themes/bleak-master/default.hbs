@@ -27,7 +27,7 @@
 						{{else}}
 						<span class="name">{{@blog.title}}</span>
 						{{/if}}
-						
+
 					</a>
 				</div>
 				<div class="nav-menu">
@@ -36,22 +36,22 @@
 					<a class="menu" data-action="menu" data-target="menu"><i class="icon-menu"></i></a>
 					{{/if}}
 				</div>
-			</nav>			
+			</nav>
 			{{{body}}}
 			<div id="body-class" style="display: none;" class="{{body_class}}"></div>
-			<footer id="footer">
+			<!--footer id="footer">
 				<section class="credits">
 					<span class="credits-theme">Theme <a href="https://github.com/zutrinken/bleak" target="_blank" rel="nofollow">Bleak</a> by <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
 					<span class="credits-software">Published with <a href="http://ghost.org" target="_blank" rel="nofollow">Ghost</a></span>
 				</section>
-			</footer>
+			</footer-->
 			{{#if @blog.navigation}}
 			{{navigation}}
 			{{/if}}
 		</div>
 	</section>
 	{{ghost_foot}}
-	
+
 	<script type="text/javascript" src="{{asset "js/dependencies.js"}}"></script>
 	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
 </body>
