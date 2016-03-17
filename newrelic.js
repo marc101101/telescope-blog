@@ -8,11 +8,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: [telescope-blog],
+  app_name: ["telescope-blog"],
   /**
    * Your New Relic license key.
    */
-  license_key: 2e68bec17ceda5233d015ab1ea72682870113a66,
+  license_key: "2e68bec17ceda5233d015ab1ea72682870113a66",
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
