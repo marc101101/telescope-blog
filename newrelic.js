@@ -8,7 +8,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ["telescope-blog"],
+  app_name: [telescope-blog],
   /**
    * Your New Relic license key.
    */
