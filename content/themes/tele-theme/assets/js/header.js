@@ -66,7 +66,7 @@ HeaderVideo.prototype.setFluidContainer = function() {
 
   $(window).resize(function() {
     var windowWidth = $(window).width();
-    var windowHeight = $(window).height();
+    var windowHeight = $(window).height() - 100;
 
     element.width(Math.ceil(windowWidth));
     element.height(Math.ceil(windowWidth * element.data('aspectRatio'))); //Set the videos aspect ratio, see https://css-tricks.com/fluid-width-youtube-videos/

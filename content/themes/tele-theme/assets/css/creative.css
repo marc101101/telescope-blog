@@ -123,6 +123,14 @@ aside {
     color: #36d995;
   }
 }
+.header-logo{
+  margin-top: -10px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
 .header-blog-title{
   position: absolute;
   top: 0;
