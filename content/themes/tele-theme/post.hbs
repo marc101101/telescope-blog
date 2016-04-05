@@ -2,6 +2,19 @@
 <!-- Full Width Image Header -->
 
 {{#post}}
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<a class="navbar-brand page-scroll" style="color: #36d995;" href="{{@blog.url}}">
+			<img class="header-logo" src="{{asset "img/head-logo.png"}}" alt="">
+			{{@blog.title}}
+			</a>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
 <div class="col-md-12 header-post" style="background-position:50%;height:350px;background-image:url({{image}})">
 </div>
 <main class="content" role="main">
