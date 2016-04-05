@@ -89,6 +89,9 @@ aside {
   background-color: transparent;
 }
 @media(min-width:768px) {
+  header {
+    min-height: 100%;
+  }
   .navbar-default {
     border-color: rgba(255, 255, 255, .3);
     background-color: transparent;
@@ -123,6 +126,27 @@ aside {
     color: #36d995;
   }
 }
+.header-image-post{
+    width: 3em;
+    height: 3em;
+    margin: -1em auto 1em;
+    overflow: hidden;
+    border-radius: 3em;
+    border: 2px solid #36D995;
+    background: #2DB77E;
+}
+.fullWidth{
+  width: 100%;
+}
+.header-post{
+  display:block;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  opacity: 0.95;
+}
 .header-logo{
   margin-top: -10px;
   margin-right: 20px;
@@ -130,7 +154,6 @@ aside {
   height: 40px;
   float: left;
 }
-
 .header-blog-title{
   position: absolute;
   top: 0;
@@ -138,12 +161,10 @@ aside {
   z-index: 1;
   margin-top: -400px;
 }
-
 .header-video {
   position: relative;
   overflow: hidden;
 }
-
 .header-video iframe,
 .header-video video {
   position: absolute;
@@ -152,7 +173,6 @@ aside {
   left: 0;
   right: 0;
 }
-
 .header-video iframe {
   height: 100%;
   width: 100%;
@@ -286,6 +306,9 @@ header .header-content .header-content-inner p {
   opacity: 1;
 }
 @media(min-width:768px) {
+  header-content {
+    display: none;
+  }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
