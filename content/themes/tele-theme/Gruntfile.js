@@ -4,6 +4,8 @@ module.exports = function(grunt) {
         pattern: ['grunt-*']
     });
 
+    angular.module('myApp', ['angular-loading-bar', 'ngAnimate']);
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         config: {
@@ -41,8 +43,8 @@ module.exports = function(grunt) {
 	                src: '*',
                     cwd: 'src/fonts/',
                     expand: true
-                }]		        
-	        } 
+                }]
+	        }
         },
         clean: {
             dist: ['assets']

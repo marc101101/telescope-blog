@@ -138,6 +138,10 @@ aside {
 .fullWidth{
   width: 100%;
 }
+.footer-none-fixed{
+  position: relative;
+  margin-top: 45px;
+}
 .header-post{
   display:block;
   -webkit-filter: blur(2px);
