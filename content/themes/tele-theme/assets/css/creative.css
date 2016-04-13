@@ -144,12 +144,6 @@ aside {
 }
 .header-post{
   display:block;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  opacity: 0.95;
 }
 .header-logo{
   margin-top: -10px;
