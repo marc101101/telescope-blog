@@ -15,11 +15,11 @@
 				<div class="clear"></div>
 				<h1 class="post-title">{{{title}}}</h1>
 			</header>
-		
+
 			<section class="post-content">
 				{{content}}
 			</section>
-			
+
 			<footer class="post-footer">
 				<div class="post-tags">
 					{{tags separator=" "}}
@@ -36,13 +36,12 @@
 					</a>
 				</div>
 			</footer>
-			
-			<aside class="post-comments">
-				<div id="disqus_thread"></div>
-			</aside>
-			
+
+			<div id="disqus_thread"></div>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
 			</div>
-			
+
 			<nav class="post-nav">
 				{{#next_post}}
 					<a class="post-nav-item post-nav-next" href="{{url absolute="true"}}">
@@ -73,3 +72,15 @@
 		</div>
 	</article>
 </main>
+
+<script>
+	(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document,
+			s = d.createElement('script');
+
+		s.src = '//telescope-blog.disqus.com/embed.js';
+
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
