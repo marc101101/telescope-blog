@@ -10,3 +10,13 @@ fixed-header{
 .margin-top-minus{
   margin-top: -60px;
 }
+
+.header-image-post{
+    width: 3em;
+    height: 3em;
+    margin: -1em auto 1em;
+    overflow: hidden;
+    border-radius: 3em;
+    border: 2px solid #36D995;
+    background: #2DB77E;
+}
