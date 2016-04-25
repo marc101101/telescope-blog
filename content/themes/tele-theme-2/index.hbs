@@ -24,9 +24,9 @@
 	</main>
 	{{#get "tags" limit="all" include="count.posts" order="count.posts desc" }}
 		<footer class="post-footer">
-		<div class="post-tags">
+		<div class="post-tags" style="max-width: 100%;">
 			{{#foreach tags}}
-				<a href="/tag/{{slug}}" class="js-ajax-link js-tag-index" style="max-width: 100%;">{{name}}</a>
+				<a href="/tag/{{slug}}" class="js-ajax-link js-tag-index" >{{name}}</a>
 			{{/foreach}}
 		</div>
 	</footer>
