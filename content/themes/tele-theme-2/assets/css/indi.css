@@ -1,0 +1,12 @@
+fixed-header{
+  width: 100%;
+  position: fixed;
+}
+
+.fixed-logo{
+  display: inline-block;
+}
+
+.margin-top-minus{
+  margin-top: -60px;
+}
