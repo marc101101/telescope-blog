@@ -22,15 +22,13 @@
 		{{> "loop"}}
 
 	</main>
-
 	{{#get "tags" limit="all" include="count.posts" order="count.posts desc" }}
 		<footer class="post-footer">
 		<div class="post-tags">
 			{{#foreach tags}}
-				<a href="/tag/{{slug}}" class="js-ajax-link js-tag-index">{{name}}</a>
+				<a href="/tag/{{slug}}" class="js-ajax-link js-tag-index" style="max-width: 100%;">{{name}}</a>
 			{{/foreach}}
 		</div>
 	</footer>
 	{{/get}}
-
 </div>
