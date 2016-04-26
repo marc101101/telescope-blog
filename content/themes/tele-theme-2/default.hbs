@@ -45,8 +45,11 @@
 			<div id="body-class" style="display: none;" class="{{body_class}}"></div>
 			<footer id="footer">
 				<section class="credits">
-					<span class="credits-theme">Theme <a href="https://github.com/zutrinken/bleak" target="_blank" rel="nofollow">Tele</a> by <a href="https://telescope-blog.herokuapp.com" target="_blank" rel="nofollow">telescope-blog</a></span>
-					<span class="credits-software">Published with <a href="http://ghost.org" target="_blank" rel="nofollow">Ghost</a></span>
+					<span class="credits-theme">Published by <a href="https://telescope-blog.herokuapp.com" target="_blank" rel="nofollow">Ghost</a></span>
+					<span class="credits-software">
+						<a href="{{@blog.url}}/impressum" target="_blank" rel="nofollow">Impressum</a>
+						<a href="{{@blog.url}}/autoren" target="_blank" rel="nofollow"> | Autoren</a>
+					</span>
 				</section>
 			</footer>
 			{{#if @blog.navigation}}

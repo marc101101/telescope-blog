@@ -20,3 +20,22 @@ fixed-header{
     border: 2px solid #36D995;
     background: #2DB77E;
 }
+
+.header-image{
+    border-radius: 5em !important;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.main-content{
+  background: white !important;
+  margin-top: -160px !important;
+}
+
+.post-content{
+      padding-top: 0.2em; !important;
+}
+
+.post-header{
+      padding-top: 1.5em !important;
+}
