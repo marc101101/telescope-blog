@@ -9,7 +9,7 @@
 				<span class="header-description">{{@blog.description}}</span>
 			{{/if}}
 		</a>
-		{{#get "tags" limit="5" include="count.posts" order="count.posts asc" }}
+		{{#get "tags" limit="5" include="count.posts" order="count.posts desc" }}
 			<div class="post-footer">
 			<div class="post-tags post-tags-top" style="max-width: 100%;">
 					{{#foreach tags}}
