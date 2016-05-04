@@ -9,6 +9,15 @@
 				<span class="header-description">{{@blog.description}}</span>
 			{{/if}}
 		</a>
+		{{#get "tags" limit="5" include="count.posts" order="count.posts asc" }}
+			<div class="post-footer">
+			<div class="post-tags" style="max-width: 100%;">
+					{{#foreach tags}}
+						<a href="/tag/{{slug}}" class="js-ajax-link js-tag-index" >#{{name}}</a>
+					{{/foreach}}
+			</div>
+		</div>
+		{{/get}}
 	</div>
 	{{#if @blog.cover}}
 		<div class="header-cover" style="background-image: url({{@blog.cover}})"></div>
@@ -22,7 +31,7 @@
 		{{> "loop"}}
 
 	</main>
-	{{#get "tags" limit="all" include="count.posts" order="count.posts desc" }}
+	{{#get "tags" limit="all" include="count.posts" order="count.posts asc" }}
 		<footer class="post-footer">
 		<div class="post-tags" style="max-width: 100%;">
 			{{#foreach tags}}

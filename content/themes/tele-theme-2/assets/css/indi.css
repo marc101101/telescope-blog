@@ -1,6 +1,6 @@
-fixed-header{
-  width: 100%;
-  position: fixed;
+.fixed-header{
+  width: 100% !important;
+  position: fixed !important;
 }
 
 .fixed-logo{
@@ -8,7 +8,7 @@ fixed-header{
 }
 
 .margin-top-minus{
-  margin-top: -60px;
+  margin-top: -10px;
 }
 
 .header-image-post{
@@ -19,6 +19,10 @@ fixed-header{
     border-radius: 3em;
     border: 2px solid #36D995;
     background: #2DB77E;
+}
+
+.header-cover{
+  height: 250px !important;
 }
 
 .header-image{
@@ -38,4 +42,13 @@ fixed-header{
 
 .post-header{
       padding-top: 1.5em !important;
+}
+
+.post-footer {
+    margin-top: 2em !important;
+    margin-bottom: -2em !important;
+}
+
+.post-tags {
+  margin-left: 15% !important;
 }
