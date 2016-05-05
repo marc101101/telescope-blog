@@ -17,7 +17,10 @@
 		</span>
 		<h2 class="post-title"><a href="{{url absolute="true"}}">{{{title}}}</a></h2>
 		<p class="post-excerpt">{{excerpt words="15"}}&hellip;</p>
-		<span class="post-more"><a href="{{url absolute="true"}}">Read More <i class="icon-arrow-right"></i></a></span>
+		<div class="loop-font">
+			{{tags separator=" | "}}
+		</div>
+		<span class="post-more"><a href="{{url absolute="true"}}">Weiterlesen <i class="icon-arrow-right"></i></a></span>
 	</div>
 </article>
 
