@@ -12,9 +12,12 @@
 		{{#get "tags" limit="5" include="count.posts" order="count.posts desc" }}
 			<div class="post-footer">
 			<div class="post-tags post-tags-top" style="max-width: 100%;">
-					{{#foreach tags}}
-						<a href="/tag/{{slug}}" class="js-ajax-link js-tag-index" >#{{name}}</a>
-					{{/foreach}}
+				<a href="/tag/software" class="js-ajax-link js-tag-index" >Software</a>
+				<a href="/tag/wirtschaft" class="js-ajax-link js-tag-index" >Wirtschaft</a>
+				<a href="/tag/karriere" class="js-ajax-link js-tag-index" >Karriere</a>
+				<a href="/tag/events" class="js-ajax-link js-tag-index" >Events</a>
+				<a href="/tag/gadgets" class="js-ajax-link js-tag-index" >Gadgets</a>
+				<a href="/tag/platten" class="js-ajax-link js-tag-index" >Plattentektonik</a>
 			</div>
 		</div>
 		{{/get}}
